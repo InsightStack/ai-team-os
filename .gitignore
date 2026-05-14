@@ -1,0 +1,8 @@
+.DS_Store
+.tmp.driveupload
+.tmp.drivedownload
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.claude/settings.local.json
