@@ -87,7 +87,7 @@ Claude will find the skill in `.claude/skills/hydrate-knowledge/SKILL.md` and wa
 
 If you don't have any MCPs connected yet, the skill falls back to interview mode and asks you 5-8 questions.
 
-When the skill finishes, your `CLAUDE.md`, `knowledge/strategy.md`, `knowledge/competitive.md`, and `team/roster.md` will be populated.
+When the skill finishes, your `CLAUDE.md`, `knowledge/strategy/README.md`, `knowledge/competition/README.md`, and `team/roster.md` will be populated.
 
 ## Step 9: Try the operational skill
 

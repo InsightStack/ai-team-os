@@ -1,6 +1,6 @@
 ---
 name: hydrate-knowledge
-description: Bootstrap a new Team OS using whatever the user has connected. Reads from Drive, Gmail, Calendar, Slack, and any other available MCPs to pre-fill the root CLAUDE.md, knowledge/strategy.md, knowledge/competitive.md, and team/roster.md. Optionally fetches a product homepage URL. Finishes with a short interview to confirm and fill gaps. Triggers when the user says "hydrate my Team OS," "bootstrap this OS," "fill in the template," or runs /hydrate-knowledge with or without a URL.
+description: Bootstrap a new Team OS using whatever the user has connected. Reads from Drive, Gmail, Calendar, Slack, and any other available MCPs to pre-fill the root CLAUDE.md, knowledge/strategy/README.md, knowledge/competition/README.md, and team/roster.md. Optionally fetches a product homepage URL. Finishes with a short interview to confirm and fill gaps. Triggers when the user says "hydrate my Team OS," "bootstrap this OS," "fill in the template," or runs /hydrate-knowledge with or without a URL.
 ---
 
 # Hydrate Knowledge Skill
@@ -32,8 +32,8 @@ Bootstraps placeholder content in this Team OS into real content. Reads whatever
 ## Outputs
 
 - Updated root `CLAUDE.md`: team roster section, doc index confirmation, communication channels filled or marked `{{TBD}}`.
-- Filled `knowledge/strategy.md`.
-- Filled `knowledge/competitive.md`.
+- Filled `knowledge/strategy/README.md`.
+- Filled `knowledge/competition/README.md`.
 - Filled `team/roster.md`.
 - (Conditional, only if InsightStack MCP is connected and the user approves) a "What we're hearing" pointer seeded in `customers/README.md`.
 - A summary report at the end listing sources used, fields filled, fields left as `{{TBD}}`, and the recommended next step.
@@ -74,7 +74,7 @@ List the queries you'll run against each approved source before running them. Th
 
 Execute the approved MCP reads in this order. For each, surface top candidates and let the user pick what's relevant. Never read everything blindly.
 
-- **Drive:** search for files matching `OKR`, `strategy`, `vision`, `product brief`, `competitive`, `roadmap`. Show top 5 candidates per category. User picks. Read selected files. Synthesize into draft text for `knowledge/strategy.md` and `knowledge/competitive.md`.
+- **Drive:** search for files matching `OKR`, `strategy`, `vision`, `product brief`, `competitive`, `roadmap`. Show top 5 candidates per category. User picks. Read selected files. Synthesize into draft text for `knowledge/strategy/README.md` and `knowledge/competition/README.md`.
 - **Calendar:** list recurring events from the last 30 days. Cluster attendees from 1-on-1s and team standups into a draft team roster. Surface the list.
 - **Gmail (if approved):** search recent threads for `strategy`, `OKR`, or `competitive` in subject lines. Offer to read the top 2 or 3 most relevant. Use for additional context only, do not write directly from emails.
 - **Slack (if approved):** list the user's primary channels and members. Use channel names as comms-channel pointers in root `CLAUDE.md`. Cross-check team roster.
@@ -108,9 +108,9 @@ Show the user the complete draft of what will be written to each target file. Us
 >
 > **root CLAUDE.md**: [draft of team roster section and comms channels]
 >
-> **knowledge/strategy.md**: [full draft]
+> **knowledge/strategy/README.md**: [full draft]
 >
-> **knowledge/competitive.md**: [full draft]
+> **knowledge/competition/README.md**: [full draft]
 >
 > **team/roster.md**: [full draft]
 >

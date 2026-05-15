@@ -62,7 +62,7 @@ EXAMPLE entries. Replace with your team's actual rhythm.
 
 ## Monthly: strategy review
 
-First Tuesday of the month. Re-read `knowledge/strategy.md`. Confirm or revise.
+First Tuesday of the month. Re-read `knowledge/strategy/README.md`. Confirm or revise.
 ```
 
 ---

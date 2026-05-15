@@ -30,6 +30,6 @@ Metrics we don't want to regress, even if doing so would move the north star.
 
 ## How this connects to strategy
 
-Every priority in `strategy.md` should map to a metric here. If it doesn't, either the priority isn't measurable or the framework is missing something.
+Every priority in `strategy/README.md` should map to a metric here. If it doesn't, either the priority isn't measurable or the framework is missing something.
 
 For the underlying SQL and dashboards, see `../analytics/`.
