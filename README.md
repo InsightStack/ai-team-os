@@ -2,8 +2,6 @@
 
 A shared knowledge folder your product team can drop into Google Drive, point Claude Cowork at, and use as the foundation for AI-assisted work.
 
-Inspired by [Hannah Stulberg's Team OS pattern](https://github.com/in-the-weeds-hannah-stulberg/team-os-example-repo) and [Ayushman Jain's Product Management Claude Workspace](https://github.com/aupsy/Product-Management-Claude-Workspace-template), adapted for [Claude Cowork](https://claude.com/product/cowork) so non-developers can use it without touching a terminal.
-
 ## What this is
 
 A folder structure plus two starter skills. The folders hold your team's shared context (strategy, customers, analytics, team rituals). The skills are reusable prompts Claude can run on top of that context.
