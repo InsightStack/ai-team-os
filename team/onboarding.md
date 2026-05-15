@@ -6,7 +6,7 @@
 
 - Accounts and tools.
 - Read root `README.md` and `CLAUDE.md`.
-- Skim `knowledge/strategy.md` and `knowledge/competitive.md`.
+- Skim `knowledge/strategy/README.md` and `knowledge/competition/README.md`.
 - One-on-ones scheduled with each teammate (see `team/roster.md`).
 
 ## Week 1

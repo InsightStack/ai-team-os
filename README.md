@@ -66,7 +66,7 @@ The example skill `prd` is built around two specific tools: [InsightStack](https
 
 Once the folder is in your shared Drive, teammates with sync access can create their own Cowork Projects pointing at the same folder. Updates anyone makes show up for everyone else.
 
-Treat the folder like a living document. When a customer signs, add them to `customers/`. When strategy shifts, update `knowledge/strategy.md`. When a feature ships, the `MAINTENANCE.md` rule is: the feature is not done until the OS reflects it.
+Treat the folder like a living document. When a customer signs, add them to `customers/`. When strategy shifts, update `knowledge/strategy/README.md`. When a feature ships, the `MAINTENANCE.md` rule is: the feature is not done until the OS reflects it.
 
 ## Credit
 

@@ -15,7 +15,7 @@ Metric definitions, dashboards, saved queries, playbooks, and periodic business 
 A new metric, dashboard, query, or analysis playbook goes here. Things that don't go here:
 
 - A customer-specific data pull → goes in that customer's folder under `customers/`.
-- A strategic interpretation of metrics → goes in `knowledge/strategy.md` or a relevant doc.
+- A strategic interpretation of metrics → goes in `knowledge/strategy/README.md` or a relevant doc.
 - The metrics tree itself (north star + leading indicators + guardrails) lives in `knowledge/metrics-framework.md`. Cross-link from `metrics.md` here, don't duplicate.
 
 ## Style

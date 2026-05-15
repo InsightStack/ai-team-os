@@ -30,7 +30,7 @@ Most updates are just chat. Examples:
 
 - `Update customers/README.md to add Acme. Segment: mid-market SaaS, contract: $80k/year, primary contact: jane@acme.com.`
 - `Add a weekly business review for the week of May 12 to analytics/business-reviews/. Use last week's as a starting point.`
-- `Strategy has shifted. Open knowledge/strategy.md and replace the second priority with: "Reduce time-to-first-insight to under 10 minutes for new customers."`
+- `Strategy has shifted. Open knowledge/strategy/README.md and replace the second priority with: "Reduce time-to-first-insight to under 10 minutes for new customers."`
 
 Cowork will show a diff and wait for approval before writing.
 
